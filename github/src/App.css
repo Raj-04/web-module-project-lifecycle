@@ -1,6 +1,28 @@
 .App {
   text-align: center;
 }
+.Card{
+  background-color:cadetblue;
+  border:black solid;
+  color: white;
+  margin: 0% 25%; 
+}
+.title{
+  background-color:midnightblue;
+  border:black solid;
+  color: white;
+  margin: 2% 35%; 
+}
+.Followers{
+  background-color:maroon;
+  border:black solid;
+  color: white;
+  margin: 2% 35%; 
+}
+.img{
+  height: 20vh;
+  width: 20vw;
+}
 
 .App-logo {
   height: 40vmin;
