@@ -64,8 +64,8 @@ class App extends React.Component {
             return(<div>
               <div><h2>Followers avatar</h2><img className="img" src={item.avatar_url}/></div>
               <div><h2>Followers Login</h2>{item.login}</div>
-              <div><h2>Followers</h2>{item.followers}</div>
-              <div><h2>Followers type</h2>{item.type}</div>
+              {/* <div><h2>Followers</h2>{item.followers}</div>
+              <div><h2>Followers type</h2>{item.type}</div> */}
               </div>)
           })}
         </div>
